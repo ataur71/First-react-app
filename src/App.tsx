@@ -18,6 +18,7 @@ function App() {
       </div>
       <h1>My First React App</h1>
       <h3>So it this really works</h3>
+      <p>click the below button to start counting numbers</p>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
